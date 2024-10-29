@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic&family=Orbit&family=Roboto:wght@300&display=swap')
+
+:root {
+    --primary-color: #094074;
+    --secondary-color: #F7EF81;
+    --accent1-color: #E88873;
+    --accent2-color: #F8F8F8;
+    --heading-font: "Roboto" sans;
+    --paragraph-font: "Nanum Gothic" sans;
+    --nav-background-color: #F8F8F8;
+    --nav-link-color: #094074;
+    --nav-hover-link-color: #3C8DDF;
+    --nav-hover-background-color: #F8F8F8;
+}
+.header{
+    color:#094074;
+    margin-left: auto;
+    margin-right: auto;
+    background: #F7EF81;
+}
+.center {
+    text-align: center;
+}
+body{
+    color:#094074;
+    background:#E88873;
+}
+footer{
+    background:#F7EF81;
+}
