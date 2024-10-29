@@ -81,7 +81,7 @@ history{
     text-align: center;
 }
 adventure{
-    <img style="float: right; margin: 0px 0px 15px 15px;" src="image/your-image.png" width="100" />
+    <img style="float: right; margin: 0px 0px 15px 15px; "src="image/your-image.png" width="100" />
     
 }
 footer{
