@@ -1,89 +1,111 @@
-@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic&family=Orbit&family=Roboto:wght@300&display=swap')
-
-:root {
-    --primary-color: #094074;
-    --secondary-color: #F7EF81;
-    --accent1-color: #E88873;
-    --accent2-color: #F8F8F8;
-    --heading-font: "Roboto" sans;
-    --paragraph-font: "Nanum Gothic" sans;
-    --nav-background-color: #F8F8F8;
-    --nav-link-color: #094074;
-    --nav-hover-link-color: #3C8DDF;
-    --nav-hover-background-color: #F8F8F8;
+-Beautified CSS-@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic&family=Orbit&family=Roboto:wght@300&display=swap'):root {
+	--primary-color: #094074;
+	--secondary-color: #F7EF81;
+	--accent1-color: #E88873;
+	--accent2-color: #F8F8F8;
+	--heading-font: "Roboto" sans;
+	--paragraph-font: "Nanum Gothic" sans;
+	--nav-background-color: #F8F8F8;
+	--nav-link-color: #094074;
+	--nav-hover-link-color: #3C8DDF;
+	--nav-hover-background-color: #F8F8F8;
 }
 .center {
-    text-align: center;
+	text-align: center;
 }
-h1{
-    font-family: var(--paragraph-font);
-    color: #094074;
-    position: absolute;
-    margin-left: auto;
-    margin-right: auto;
+h1 {
+	font-family: var(--paragraph-font);
+	color: #094074;
+	position: absolute;
+	margin-left: auto;
+	margin-right: auto;
 }
-h2{ 
-    font-family: var(--paragraph-font);
-    color: #094074;
-
+h2 {
+	font-family: var(--paragraph-font);
+	color: #094074;
 }
-h3{ 
-    font-family: var(--paragraph-font);
-    color: #094074;
+h3 {
+	font-family: var(--paragraph-font);
+	color: #094074;
 }
-h4{
-    font-family: var(--paragraph-font);
-    color: #094074;
+h4 {
+	font-family: var(--paragraph-font);
+	color: #094074;
 }
 p {
-    font-family: var(--heading-font);
-    color: black;
-
+	font-family: var(--heading-font);
+	color: black;
 }
-body{
-    background:#E88873;
+body {
+	background: #E88873;
 }
-hero.img{
-    display:block;
-    width: 100%;
-    height: auto;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 30px;
-    
+hero.img {
+	display: block;
+	width: 100%;
+	height: auto;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 30px;
 }
-header{
-    color: #094074;
-    display: grid;
-    img{
-        color: #333;
-    }
-    h1{
-        color: rgb(121, 15, 15);
-    }
-    nav{
-        <style type="text/css">
-    *{margin: 0; padding: 0};
-    #container {height: 100%; width:100%; font-size: 0};
-    #left, #middle, #right {display: inline-block; *display: inline; zoom: 1; vertical-align: top; font-size: 12px};
-    #left {width: 25%; background: blue};
-    #middle {width: 50%; background: green};
-    #right {width: 25%; background: yellow};
-    </style>
-        display: grid;
-        grid-auto-rows: minmax(30px, auto);
-        text-align: center;
-    }
+header {
+	color: #094074;
+	display: grid;
+	img {
+		color: #333;
+	}
+	h1 {
+		color: rgb(121, 15, 15);
+	}
+	nav {
+		<style type="text/css">* {
+			margin: 0;
+			padding: 0
 }
-history{ 
-    color: #094074;
-    text-align: center;
+		;
+		#container {
+			height: 100%;
+			width: 100%;
+			font-size: 0
 }
-adventure{
-    <img style="float: right; margin: 0px 0px 15px 15px; "src="image/your-image.png" width="100" />
-    
+		;
+		#left,#middle,#right {
+			display: inline-block;
+			*display: inline;
+			zoom: 1;
+			vertical-align: top;
+			font-size: 12px
 }
-footer{
-    background:#F7EF81;
+		;
+		#left {
+			width: 25%;
+			background: blue
+}
+		;
+		#middle {
+			width: 50%;
+			background: green
+}
+		;
+		#right {
+			width: 25%;
+			background: yellow
+}
+		;
+		</style>display: grid;
+		grid-auto-rows: minmax(30px, auto);
+		text-align: center;
+	}
+}
+history {
+	color: #094074;
+	text-align: center;
+}
+.adventure {
+	img style="float": right;
+	margin: 0px 0px 15px 15px;
+	src="image/your-image.png" width=100 />
+}
+footer {
+	background: #F7EF81;
 }
